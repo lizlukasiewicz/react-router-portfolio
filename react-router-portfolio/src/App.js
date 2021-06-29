@@ -10,15 +10,16 @@ import Header from './components/Header'
 import {
   BrowserRouter as Router, // alias BrowserRouter as Router
   Route,
-  Switch
+  //Switch
   // Link
 } from 'react-router-dom'
+
 
 
 function App() {
   return (
     <div className="App">
-      <h1>Not another Sopranos fanpage</h1><p>(warning: spoilers galore)</p>
+      <h1>Not another Sopranos fanpage</h1><p>(<strong>warning:</strong> spoilers galore)</p>
       <Router>
       <Header />
 

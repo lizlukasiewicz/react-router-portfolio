@@ -3,7 +3,7 @@
 export default function Blog() {
     return(
         <div>
-            hello from blog
+            <h3>No wonder theyre calling this the year of the rat</h3>
         </div>
     )
 }
